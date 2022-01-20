@@ -76,15 +76,15 @@ public class PhoneController {
 	*/
 	
 	
-	@RequestMapping(value="/test/{no}/{num}", method= {RequestMethod.GET, RequestMethod.POST})
-	public String add( @PathVariable("no") int no,
-						@PathVariable("num") int num) {
-		
-		System.out.println(no);
-		System.out.println(num);
-		
-		return "writeForm";
-	}
+//	@RequestMapping(value="/test/{no}/{num}", method= {RequestMethod.GET, RequestMethod.POST})
+//	public String add( @PathVariable("no") int no,
+//						@PathVariable("num") int num) {
+//		
+//		System.out.println(no);
+//		System.out.println(num);
+//		
+//		return "writeForm";
+//	}
 	
 	
 	@RequestMapping(value="/list", method= {RequestMethod.GET, RequestMethod.POST})
